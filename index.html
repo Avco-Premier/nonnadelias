@@ -13,14 +13,14 @@
 
         body {
             font-family: Georgia, 'Times New Roman', serif;
-            color: #2c2c2c;
+            color: #8d0104;
             line-height: 1.5;
             background-color: #fefefe;
         }
 
         /* Navigation */
         nav {
-            background-color: #1a1a1a;
+            background-color: #8d0104;
             padding: 0.8rem 0;
             border-bottom: 3px solid #d4af37;
         }
@@ -35,10 +35,18 @@
         }
 
         nav .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
             font-size: 1.6rem;
             font-weight: normal;
             color: #d4af37;
             font-family: 'Times New Roman', serif;
+        }
+
+        nav .logo img {
+            height: 40px;
+            width: auto;
         }
 
         nav ul {
@@ -61,7 +69,10 @@
 
         /* Hero Section */
         .hero {
-            background: #2c2c2c;
+            background: linear-gradient(rgba(141, 1, 4, 0.7), rgba(141, 1, 4, 0.7)), url('hero.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: #f5f5f5;
             padding: 80px 2rem 60px;
             text-align: center;
@@ -105,7 +116,7 @@
 
         .btn-primary {
             background-color: #d4af37;
-            color: #1a1a1a;
+            color: #8d0104;
         }
 
         .btn-primary:hover {
@@ -120,7 +131,7 @@
 
         .btn-secondary:hover {
             background-color: #d4af37;
-            color: #1a1a1a;
+            color: #8d0104;
         }
 
         /* Container */
@@ -151,7 +162,7 @@
         }
 
         .feature-card h3 {
-            color: #2c2c2c;
+            color: #8d0104;
             margin-bottom: 0.8rem;
             font-size: 1.2rem;
             font-weight: normal;
@@ -172,7 +183,7 @@
             text-align: center;
             font-size: 2rem;
             margin-bottom: 2rem;
-            color: #2c2c2c;
+            color: #8d0104;
             font-weight: normal;
         }
 
@@ -199,7 +210,7 @@
         /* Catering Section */
         .catering {
             background-color: #f4f4f4;
-            color: #2c2c2c;
+            color: #8d0104;
             padding: 50px 2rem;
             text-align: center;
             border-top: 1px solid #ddd;
@@ -209,7 +220,7 @@
             font-size: 2rem;
             margin-bottom: 1rem;
             font-weight: normal;
-            color: #2c2c2c;
+            color: #8d0104;
         }
 
         .catering p {
@@ -232,7 +243,7 @@
             text-align: center;
             font-size: 2rem;
             margin-bottom: 2rem;
-            color: #2c2c2c;
+            color: #8d0104;
             font-weight: normal;
         }
 
@@ -251,7 +262,7 @@
         }
 
         .contact-card h3 {
-            color: #2c2c2c;
+            color: #8d0104;
             margin-bottom: 0.8rem;
             font-size: 1.1rem;
             font-weight: normal;
@@ -269,7 +280,7 @@
 
         /* Footer */
         footer {
-            background-color: #1a1a1a;
+            background-color: #8d0104;
             color: #ccc;
             text-align: center;
             padding: 2rem;
@@ -301,6 +312,10 @@
                 width: auto;
                 min-width: 200px;
             }
+
+            nav .logo img {
+                height: 30px;
+            }
         }
     </style>
 </head>
@@ -308,7 +323,10 @@
     <!-- Navigation -->
     <nav>
         <div class="container">
-            <div class="logo">Nonna Delia's</div>
+            <div class="logo">
+                <img src="logo.png" alt="Nonna Delia's Logo">
+                <span>Nonna Delia's</span>
+            </div>
             <ul>
                 <li><a href="#gallery">Menu</a></li>
                 <li><a href="#catering">Catering</a></li>
@@ -322,7 +340,7 @@
         <h1>Nonna Delia's</h1>
         <p>Authentic Italian Cuisine • Queens Since 1989 •  Catering for all occasions!</p>
         <div class="cta-buttons">
-            <a href="#contact" class="btn btn-primary">Order Online</a>
+            <a href="http://nonnadelias.avcoindustries.com/order-now" class="btn btn-primary">Order Online</a>
             <a href="#contact" class="btn btn-secondary">Call Us</a>
         </div>
     </section>
