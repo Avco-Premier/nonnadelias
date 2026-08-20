@@ -1,0 +1,20 @@
+{
+  "_source_note": "Drafted by Map (sitemap agent) from repo facts only — index.html and CNAME. No seo/site.config.json existed at draft time, despite Paige/Mike-style commits already on this branch. Fields marked _needs_confirmation must be verified by a human.",
+  "restaurant_name": "Nonna Delia's",
+  "cuisine": "Italian",
+  "specialty": "hand-tossed pizza, pasta, and Italian favorites",
+  "public_domain": "https://nonnadelias.com",
+  "order_url": "http://nonnadelias.direct-ordering.com/order-now",
+  "phone_tel": "+17184456662",
+  "address": {
+    "city": "Flushing",
+    "state": "NY",
+    "_note": "Street/zip not confirmed in repo text; only city/state found in JSON-LD address block."
+  },
+  "served_areas": ["Flushing, NY"],
+  "_served_areas_note": "Only area explicitly named on-page (meta description: 'Craving pizza in Flushing, NY?'). No other neighborhoods/towns are named anywhere in the repo — do not add more without a human source.",
+  "pages": {
+    "type": "single-page",
+    "_note": "Repo contains only index.html at site root — no other real routes to include in a sitemap."
+  }
+}
