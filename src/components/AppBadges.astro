@@ -1,0 +1,12 @@
+---
+import { site } from "../data/site";
+const { class: className = "" } = Astro.props;
+---
+<div class={`app-badges ${className}`} aria-label="Download the Nonna Delia's app">
+  <a href={site.appStoreUrl} target="_blank" rel="noopener">
+    <img src="/badges/app-store.svg" alt="Download Nonna Delia's on the App Store" width="132" height="44" />
+  </a>
+  <a href={site.playStoreUrl} target="_blank" rel="noopener">
+    <img src="/badges/google-play.png" alt="Get Nonna Delia's on Google Play" width="148" height="44" />
+  </a>
+</div>

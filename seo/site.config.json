@@ -1,20 +1,39 @@
 {
-  "_source_note": "Drafted by Map (sitemap agent) from repo facts only — index.html and CNAME. No seo/site.config.json existed at draft time, despite Paige/Mike-style commits already on this branch. Fields marked _needs_confirmation must be verified by a human.",
+  "_source_note": "Facts confirmed from repo content, the restaurant's direct-ordering API, and owner-side review on 2026-10-06. Do not add facts without a human source.",
   "restaurant_name": "Nonna Delia's",
+  "legal_display_name": "Nonna Delia's Brick Oven Pizzeria & Ristorante",
   "cuisine": "Italian",
-  "specialty": "hand-tossed pizza, pasta, and Italian favorites",
+  "specialty": "brick oven and Grandma Sicilian pizza, pasta, and Italian favorites",
   "public_domain": "https://nonnadelias.com",
   "order_url": "http://nonnadelias.direct-ordering.com/order-now",
+  "order_subdomain": "nonnadelias",
   "phone_tel": "+17184456662",
+  "phone_display": "(718) 445-6662",
   "address": {
-    "city": "Flushing",
+    "street": "18-32 College Point Blvd",
+    "city": "College Point",
     "state": "NY",
-    "_note": "Street/zip not confirmed in repo text; only city/state found in JSON-LD address block."
+    "zip": "11356",
+    "_note": "Locality changed from Flushing to College Point on 2026-10-06 (matches ZIP 11356, ordering system, Yelp)."
   },
-  "served_areas": ["Flushing, NY"],
-  "_served_areas_note": "Only area explicitly named on-page (meta description: 'Craving pizza in Flushing, NY?'). No other neighborhoods/towns are named anywhere in the repo — do not add more without a human source.",
+  "hours": {
+    "Sun-Thu": "10:00-21:30",
+    "Fri-Sat": "10:00-22:30",
+    "_note": "Site hours kept by decision on 2026-10-06. The direct-ordering system lists different hours (Sun-Thu 10:00-21:00, Fri 10:00-22:30, Sat 10:00-23:30) — owner should reconcile."
+  },
+  "served_areas": ["College Point, NY"],
+  "_served_areas_note": "Only the restaurant's own neighborhood is named. Do not add location pages for other areas without a human source.",
+  "social": {
+    "instagram": "https://www.instagram.com/nonna.delias/",
+    "facebook": "https://www.facebook.com/nonna.delias/"
+  },
+  "apps": {
+    "ios": "https://apps.apple.com/us/app/nonna-delias/id6761735841",
+    "android": "https://play.google.com/store/apps/details?id=com.avco.nonnadelias"
+  },
   "pages": {
-    "type": "single-page",
-    "_note": "Repo contains only index.html at site root — no other real routes to include in a sitemap."
+    "type": "multipage",
+    "stack": "astro",
+    "routes": ["/", "/menu/", "/order/", "/catering/", "/location/"]
   }
 }

@@ -1,0 +1,133 @@
+---
+import Base from "../layouts/Base.astro";
+import AppBadges from "../components/AppBadges.astro";
+import { site } from "../data/site";
+---
+<Base
+  title="Nonna Delia's | Brick Oven Pizza & Italian in College Point, Queens"
+  description="Nonna Delia's on College Point Blvd bakes brick oven pies, Grandma Sicilian squares, and homemade pasta. Order pickup or delivery online, or call for catering."
+>
+  <section class="hero" aria-label="Nonna Delia's introduction">
+    <div class="hero-gallery" aria-hidden="true">
+      <img class="is-active" src="/images/storefront-sign.jpg" alt="" fetchpriority="high" />
+      <img src="/images/pizza-slice.jpg" alt="" loading="lazy" />
+      <img src="/images/grandma-square.jpg" alt="" loading="lazy" />
+    </div>
+    <div class="hero-scrim"></div>
+    <div class="hero-content">
+      <img class="hero-logo" src="/logo.png" alt="Nonna Delia's logo" width="180" height="88" />
+      <p class="hero-kicker">Queens Italian Kitchen</p>
+      <h1>
+        <span>Nonna</span>
+        <strong>Delia's</strong>
+      </h1>
+      <p>Hand-tossed pizza, Italian favorites, pasta, takeout, delivery, and catering for every occasion in Queens.</p>
+      <div class="hero-actions">
+        <a class="button button-yellow" href={site.orderUrl}>Order Online</a>
+        <a class="button button-outline" href="/menu/">View Menu</a>
+      </div>
+      <AppBadges />
+      <button class="motion-toggle" type="button" data-motion-toggle aria-pressed="false">Pause gallery</button>
+    </div>
+  </section>
+
+  <section class="embed-strip" aria-label="Quick actions">
+    <a href={site.orderUrl}>Order pickup &amp; delivery</a>
+    <a href={`tel:${site.phoneTel}`}>Call Nonna Delia's</a>
+    <a href="/catering/">Catering for all occasions</a>
+  </section>
+
+  <section class="split">
+    <div class="split-copy">
+      <p class="eyebrow">Our Menu</p>
+      <h2>Pizza, pasta, and Italian favorites.</h2>
+      <p>From a quick slice to a full family feast, Nonna Delia's keeps the classics close: hand-tossed pizza, specialty pies, pasta dishes, salads, and comforting Italian favorites.</p>
+      <a class="button button-red" href="/menu/">View Full Menu</a>
+    </div>
+    <div class="split-image">
+      <img src="/images/pizza-slice.jpg" alt="A slice of Nonna Delia's pizza on a green-rimmed plate" loading="lazy" />
+    </div>
+  </section>
+
+  <section class="split split-alt">
+    <div class="split-copy">
+      <p class="eyebrow">Pickup &amp; Delivery</p>
+      <h2>Queens pizza night, handled.</h2>
+      <p>Order online for pickup or delivery when dinner needs to be simple. Choose your pie, add pasta or sides, and send the order straight to the kitchen.</p>
+      <div class="button-row">
+        <a class="button button-red" href={site.orderUrl}>Order Online</a>
+        <a class="button button-ink-outline" href="/order/">How ordering works</a>
+      </div>
+    </div>
+    <div class="split-image">
+      <img src="/images/grandma-square.jpg" alt="Square slice of Nonna Delia's pizza with tomato and basil" loading="lazy" />
+    </div>
+  </section>
+
+  <section class="split">
+    <div class="split-copy">
+      <p class="eyebrow">Catering</p>
+      <h2>Bring Nonna Delia's to the table.</h2>
+      <p>We cater parties of all sizes, from office meetings to family gatherings and special events. Build the spread around pizza, pasta, salads, trays, and Italian comfort food.</p>
+      <div class="button-row">
+        <a class="button button-red" href="/catering/">See Catering Menu</a>
+        <a class="button button-ink-outline" href={`tel:${site.phoneTel}`}>Call to Cater</a>
+      </div>
+    </div>
+    <div class="split-image">
+      <img src="/images/storefront-sign.jpg" alt="The Nonna Delia's sign on the restaurant's greenery wall" loading="lazy" />
+    </div>
+  </section>
+
+  <!-- TODO(seo): need real, attributable customer reviews (e.g. from Google Business Profile) before restoring a reviews section. -->
+
+  <section class="section two-col" aria-labelledby="visit-title">
+    <div class="prose">
+      <p class="eyebrow">Visit Us</p>
+      <h2 class="section-title" id="visit-title">Nonna Delia's in College Point</h2>
+      <p>{site.address.street}, {site.address.locality}, {site.address.region} {site.address.postalCode}</p>
+      <p>Open for pizza, Italian favorites, pickup, delivery, and catering. Call the restaurant for larger party orders and event planning.</p>
+      <div class="button-row">
+        <a class="button button-red" href="/location/">Hours &amp; Directions</a>
+      </div>
+    </div>
+    <div class="info-card">
+      <h3>Hours</h3>
+      <dl>
+        {site.hours.map((h) => (<div><dt>{h.label}</dt><dd>{h.value}</dd></div>))}
+        <div><dt>Phone</dt><dd><a href={`tel:${site.phoneTel}`}>{site.phoneDisplay}</a></dd></div>
+      </dl>
+      <a class="button button-red" href={site.orderUrl}>Order Online</a>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const galleryImages = [...document.querySelectorAll<HTMLImageElement>(".hero-gallery img")];
+  const motionToggle = document.querySelector<HTMLButtonElement>("[data-motion-toggle]");
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  let activeIndex = 0;
+  let paused = reduceMotion;
+
+  function advanceGallery() {
+    if (paused || galleryImages.length < 2) return;
+    galleryImages[activeIndex].classList.remove("is-active");
+    activeIndex = (activeIndex + 1) % galleryImages.length;
+    galleryImages[activeIndex].classList.add("is-active");
+  }
+
+  window.setInterval(advanceGallery, 3500);
+
+  if (motionToggle) {
+    if (paused) {
+      motionToggle.setAttribute("aria-pressed", "true");
+      motionToggle.textContent = "Play gallery";
+    }
+    motionToggle.addEventListener("click", () => {
+      paused = !paused;
+      motionToggle.setAttribute("aria-pressed", String(paused));
+      motionToggle.textContent = paused ? "Play gallery" : "Pause gallery";
+    });
+  }
+</script>

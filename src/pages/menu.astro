@@ -1,0 +1,36 @@
+---
+import Base from "../layouts/Base.astro";
+import MenuSections from "../components/MenuSections.astro";
+import menu from "../data/menu.json";
+import { site } from "../data/site";
+
+const categories = menu.categories.filter((c) => !/catering$/i.test(c.name));
+---
+<Base
+  title="Menu | Nonna Delia's Pizzeria & Ristorante, College Point"
+  description="The full Nonna Delia's menu with prices: brick oven and Grandma Sicilian pizza, slices, heros, pasta, chicken and veal entrees, seafood, and desserts."
+  image="/images/pizza-slice.jpg"
+>
+  <section class="page-hero">
+    <img src="/images/pizza-slice.jpg" alt="" fetchpriority="high" />
+    <div class="page-hero-inner">
+      <p class="eyebrow">Our Menu</p>
+      <h1>The Nonna Delia's Menu</h1>
+      <p>Pizza, pasta, and Italian favorites, straight from our ordering menu, with current prices.</p>
+      <div class="button-row">
+        <a class="button button-yellow" href={site.orderUrl}>Order Online</a>
+        <a class="button button-outline" href="/catering/">Catering Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section">
+    <MenuSections categories={categories}>
+      <div class="menu-cta">
+        <p>Ready to eat? Order pickup or delivery straight from our kitchen.</p>
+        <a class="button button-red" href={site.orderUrl}>Order Online</a>
+      </div>
+      <p class="menu-note">Prices and availability can change; your online order always shows the current price.</p>
+    </MenuSections>
+  </div>
+</Base>

@@ -1,0 +1,16 @@
+{
+  "name": "nonnadelias",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "sync-menu": "node scripts/sync-menu.mjs",
+    "sitemap": "node scripts/build-sitemap.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.3.6"
+  }
+}

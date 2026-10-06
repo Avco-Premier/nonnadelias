@@ -1,0 +1,39 @@
+---
+interface Item {
+  name: string;
+  description: string;
+  price: string;
+}
+interface Category {
+  name: string;
+  items: Item[];
+}
+
+const { categories }: { categories: Category[] } = Astro.props;
+const slug = (s: string) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+---
+<div class="menu-layout">
+  <nav class="menu-index" aria-label="Menu categories">
+    <h2>Jump to</h2>
+    <ul>
+      {categories.map((c) => (<li><a href={`#${slug(c.name)}`}>{c.name}</a></li>))}
+    </ul>
+  </nav>
+  <div>
+    {categories.map((c) => (
+      <section class="menu-category" id={slug(c.name)} aria-labelledby={`${slug(c.name)}-title`}>
+        <h2 id={`${slug(c.name)}-title`}>{c.name}</h2>
+        <ul class="menu-items">
+          {c.items.map((item) => (
+            <li class="menu-item">
+              <h3>{item.name}</h3>
+              <span class="price">${item.price}</span>
+              {item.description && <p>{item.description}</p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+    <slot />
+  </div>
+</div>

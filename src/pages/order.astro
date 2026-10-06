@@ -1,0 +1,50 @@
+---
+import Base from "../layouts/Base.astro";
+import AppBadges from "../components/AppBadges.astro";
+import { site } from "../data/site";
+---
+<Base
+  title="Order Pickup & Delivery Online | Nonna Delia's College Point"
+  description="Skip the phone line: order Nonna Delia's pizza, pasta, and heros online for pickup on College Point Blvd or delivery, or use the Nonna Delia's app."
+  image="/images/grandma-square.jpg"
+>
+  <section class="page-hero">
+    <img src="/images/grandma-square.jpg" alt="" fetchpriority="high" />
+    <div class="page-hero-inner">
+      <p class="eyebrow">Pickup &amp; Delivery</p>
+      <h1>Order Nonna Delia's Online</h1>
+      <p>Order online for pickup or delivery when dinner needs to be simple. Choose your pie, add pasta or sides, and send the order straight to the kitchen.</p>
+      <div class="button-row">
+        <a class="button button-yellow" href={site.orderUrl}>Order Online</a>
+        <a class="button button-outline" href={`tel:${site.phoneTel}`}>Call {site.phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="split">
+    <div class="split-copy">
+      <p class="eyebrow">Order direct</p>
+      <h2>Queens pizza night, handled.</h2>
+      <p>Pickup and delivery are both available online. Browse the full menu first, or jump straight into ordering.</p>
+      <div class="button-row">
+        <a class="button button-red" href={site.orderUrl}>Start Your Order</a>
+        <a class="button button-ink-outline" href="/menu/">Browse the Menu</a>
+      </div>
+    </div>
+    <div class="split-image">
+      <img src="/images/pizza-slice.jpg" alt="A slice of Nonna Delia's pizza ready for pickup" loading="lazy" />
+    </div>
+  </section>
+
+  <section class="split split-alt">
+    <div class="split-copy">
+      <p class="eyebrow">Get the app</p>
+      <h2>Nonna Delia's in your pocket.</h2>
+      <p>Download the Nonna Delia's app for iPhone or Android to reorder your favorites in a few taps.</p>
+      <AppBadges />
+    </div>
+    <div class="split-image">
+      <img src="/images/storefront-sign.jpg" alt="The Nonna Delia's sign inside the restaurant" loading="lazy" />
+    </div>
+  </section>
+</Base>

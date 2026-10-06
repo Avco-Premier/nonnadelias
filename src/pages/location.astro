@@ -1,0 +1,48 @@
+---
+import Base from "../layouts/Base.astro";
+import { site, mapsUrl } from "../data/site";
+
+const fullAddress = `${site.address.street}, ${site.address.locality}, ${site.address.region} ${site.address.postalCode}`;
+---
+<Base
+  title="Hours & Directions | Nonna Delia's, 18-32 College Point Blvd"
+  description="Find Nonna Delia's at 18-32 College Point Blvd, College Point, NY 11356. Open daily from 10 AM; call (718) 445-6662 or order online for pickup."
+>
+  <section class="page-hero">
+    <img src="/images/storefront-sign.jpg" alt="" fetchpriority="high" />
+    <div class="page-hero-inner">
+      <p class="eyebrow">Visit Us</p>
+      <h1>Nonna Delia's in College Point</h1>
+      <p>{fullAddress}</p>
+      <div class="button-row">
+        <a class="button button-yellow" href={mapsUrl} target="_blank" rel="noopener">Get Directions</a>
+        <a class="button button-outline" href={site.orderUrl}>Order Online</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section two-col">
+    <div class="prose">
+      <h2 class="section-title">Hours &amp; contact</h2>
+      <p>Open for pizza, Italian favorites, pickup, delivery, and catering. Call the restaurant for larger party orders and event planning.</p>
+      <iframe
+        class="map-frame"
+        title="Map to Nonna Delia's"
+        src={`https://www.google.com/maps?q=${encodeURIComponent(`Nonna Delia's, ${fullAddress}`)}&output=embed`}
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <div class="info-card">
+      <h3>Contact</h3>
+      <dl>
+        <div><dt>Phone</dt><dd><a href={`tel:${site.phoneTel}`}>{site.phoneDisplay}</a></dd></div>
+        <div><dt>Address</dt><dd><a href={mapsUrl} target="_blank" rel="noopener">{site.address.street}<br />{site.address.locality}, {site.address.region} {site.address.postalCode}</a></dd></div>
+        <div><dt>Hours</dt><dd>{site.hours.map((h) => (<>{h.label} {h.value}<br /></>))}</dd></div>
+        <div><dt>Ordering</dt><dd>Pickup and delivery available online</dd></div>
+        <div><dt>Catering</dt><dd>Available for all occasions — <a href="/catering/">see the catering menu</a></dd></div>
+      </dl>
+      <a class="button button-red" href={site.orderUrl}>Order Online</a>
+    </div>
+  </section>
+</Base>
