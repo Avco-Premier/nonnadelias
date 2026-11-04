@@ -1,0 +1,327 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - paragraph [ref=e4]:
+    - link "18-32 College Point Blvd · Queens, NY" [ref=e5] [cursor=pointer]:
+      - /url: https://maps.google.com/?cid=875231595657325381
+    - link "(718) 445-6662" [ref=e6] [cursor=pointer]:
+      - /url: tel:+17184456662
+  - banner [ref=e7]:
+    - generic [ref=e8]:
+      - link "Nonna Delia's" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=e11]:
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "Menu" [ref=e14] [cursor=pointer]:
+              - /url: /menu/
+          - listitem [ref=e15]:
+            - link "About" [ref=e16] [cursor=pointer]:
+              - /url: /about/
+          - listitem [ref=e17]:
+            - link "Visit" [ref=e18] [cursor=pointer]:
+              - /url: /visit/
+          - listitem [ref=e19]:
+            - link "FAQ" [ref=e20] [cursor=pointer]:
+              - /url: /faq/
+        - link "Nonna Delia's on Instagram" [ref=e21] [cursor=pointer]:
+          - /url: https://www.instagram.com/nonna.delias/
+      - link "Order now" [ref=e26] [cursor=pointer]:
+        - /url: https://nonnadelias.direct-ordering.com/order-now
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - checkbox "Pause the photo slideshow" [ref=e29]
+      - generic [aria-hidden] [ref=e30] [cursor=pointer]
+      - generic [ref=e33]:
+        - img "Upside Down Sicilian Pizza" [ref=e36]
+        - img "Food at Nonna Delia's in Queens (photo 1)" [ref=e39]
+        - img "Food at Nonna Delia's in Queens (photo 2)" [ref=e42]
+      - generic [ref=e43]:
+        - 'heading "Nonna Delia''s : Pizza in Flushing, Queens" [level=1] [ref=e44]':
+          - generic [ref=e45]: Nonna Delia's
+          - generic [ref=e46]: ":"
+          - generic [ref=e47]: Pizza in Flushing, Queens
+        - paragraph [ref=e48]: Dine in, pickup or delivery
+        - paragraph [ref=e49]:
+          - link "4.2★ from 464+ reviews on Google" [ref=e50] [cursor=pointer]:
+            - /url: https://search.google.com/local/reviews?placeid=ChIJIeUvtFP1wokRRWtaw39yJQw
+        - paragraph [ref=e51]:
+          - link "Order now" [ref=e52] [cursor=pointer]:
+            - /url: https://nonnadelias.direct-ordering.com/order-now
+          - link "See the menu" [ref=e53] [cursor=pointer]:
+            - /url: /menu/
+          - link "Call (718) 445-6662" [ref=e54] [cursor=pointer]:
+            - /url: tel:+17184456662
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Get the Nonna Delia's app
+          - list [ref=e57]:
+            - listitem [ref=e58]:
+              - link "Nonna Delia's app on the App Store" [ref=e59] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/nonna-delias/id6761735841
+                - generic [ref=e62]:
+                  - generic [ref=e63]: Download on the
+                  - generic [ref=e64]: App Store
+            - listitem [ref=e65]:
+              - link "Nonna Delia's app on Google Play" [ref=e66] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.avco.nonnadelias
+                - generic [ref=e72]:
+                  - generic [ref=e73]: Get it on
+                  - generic [ref=e74]: Google Play
+    - region [ref=e75]:
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - generic [ref=e78]: From our menu
+          - heading "Start with your favorite." [level=2] [ref=e79]
+        - list [ref=e80]:
+          - listitem [ref=e81]:
+            - link [aria-hidden] [ref=e82] [cursor=pointer]:
+              - /url: /menu/#upside-down-sicilian-pizza
+              - generic [ref=e83]: U
+            - heading [level=3] [ref=e84]:
+              - link "Upside Down Sicilian Pizza" [ref=e85] [cursor=pointer]:
+                - /url: /menu/#upside-down-sicilian-pizza
+            - paragraph [ref=e86]:
+              - generic [ref=e87]: $26.95
+              - link "Order Upside Down Sicilian Pizza" [ref=e88] [cursor=pointer]:
+                - /url: https://nonnadelias.direct-ordering.com/order-now
+                - text: Order
+          - listitem [ref=e89]:
+            - link [aria-hidden] [ref=e90] [cursor=pointer]:
+              - /url: /menu/#cauliflower-gluten-free-pizza
+            - heading [level=3] [ref=e92]:
+              - link "Cauliflower Gluten Free Pizza" [ref=e93] [cursor=pointer]:
+                - /url: /menu/#cauliflower-gluten-free-pizza
+            - paragraph [ref=e94]:
+              - generic [ref=e95]: $16.95
+              - link "Order Cauliflower Gluten Free Pizza" [ref=e96] [cursor=pointer]:
+                - /url: https://nonnadelias.direct-ordering.com/order-now
+                - text: Order
+          - listitem [ref=e97]:
+            - link [aria-hidden] [ref=e98] [cursor=pointer]:
+              - /url: /menu/#sicilian-cheese-pizza
+            - heading [level=3] [ref=e100]:
+              - link "Sicilian Cheese Pizza" [ref=e101] [cursor=pointer]:
+                - /url: /menu/#sicilian-cheese-pizza
+            - paragraph [ref=e102]:
+              - generic [ref=e103]: $26.95
+              - link "Order Sicilian Cheese Pizza" [ref=e104] [cursor=pointer]:
+                - /url: https://nonnadelias.direct-ordering.com/order-now
+                - text: Order
+          - listitem [ref=e105]:
+            - link [aria-hidden] [ref=e106] [cursor=pointer]:
+              - /url: /menu/#large-hawaiian-pizza
+            - heading [level=3] [ref=e108]:
+              - link "Large Hawaiian Pizza" [ref=e109] [cursor=pointer]:
+                - /url: /menu/#large-hawaiian-pizza
+            - paragraph [ref=e110]:
+              - generic [ref=e111]: $29.95
+              - link "Order Large Hawaiian Pizza" [ref=e112] [cursor=pointer]:
+                - /url: https://nonnadelias.direct-ordering.com/order-now
+                - text: Order
+        - paragraph [ref=e113]:
+          - link "See the full menu" [ref=e114] [cursor=pointer]:
+            - /url: /menu/
+            - text: See the full menu
+            - generic [aria-hidden] [ref=e115]: →
+    - region [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: Meet Nonna Delia's
+          - heading "What is Nonna Delia's known for?" [level=2] [ref=e120]
+          - generic [ref=e121]:
+            - paragraph [ref=e122]: Nonna Delia's is a pizza restaurant in Flushing, NY. Come in for lunch and dinner seven days a week.
+            - paragraph [ref=e123]: "The menu does the talking: 11 sections and 95 dishes. It runs from pizza and appetizers to soups and salads. If it's your first visit, start with the Upside Down Sicilian Pizza, the Cauliflower Gluten Free Pizza or the Sicilian Cheese Pizza. You can eat in, take out or order delivery. You can order ahead online and pick it up at the restaurant. Prices for every dish are on our menu page."
+          - link "Our story" [ref=e125] [cursor=pointer]:
+            - /url: /about/
+        - img "Storefront sign of Nonna Delia's at 18-32 College Point Blvd, Queens" [ref=e128]
+    - region [ref=e129]:
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e132]: Delivery
+          - heading "Pizza delivery in Flushing" [level=2] [ref=e133]
+          - paragraph [ref=e135]:
+            - text: Nonna Delia's delivers the full menu from 18-32 College Point Blvd to homes and offices in Queens.
+            - link "Order online" [ref=e136] [cursor=pointer]:
+              - /url: https://nonnadelias.direct-ordering.com/order-now
+            - text: or call (718) 445-6662 during our hours (Mon–Thu 10 AM to 9:30 PM; Fri–Sat 10 AM to 10:30 PM; Sun 10 AM to 9:30 PM).
+          - link "Order delivery" [ref=e138] [cursor=pointer]:
+            - /url: https://nonnadelias.direct-ordering.com/order-now
+        - img "Food at Nonna Delia's in Queens (photo 1)" [ref=e141]
+    - generic [ref=e143]:
+      - article [ref=e144]:
+        - heading "Dine in, take out or order ahead" [level=2] [ref=e145]
+        - paragraph [ref=e147]:
+          - text: Sit down with us. We don't take reservations; it's walk-in only. For takeout, order ahead online;
+          - link "pickup details" [ref=e148] [cursor=pointer]:
+            - /url: /visit/
+          - text: are on the visit page.
+      - article [ref=e149]:
+        - heading "Ordering for pickup" [level=2] [ref=e150]
+        - paragraph [ref=e152]:
+          - link "Order ahead online" [ref=e153] [cursor=pointer]:
+            - /url: https://nonnadelias.direct-ordering.com/order-now
+          - text: and pick up at the restaurant.
+    - region [ref=e154]:
+      - generic [ref=e155]:
+        - generic [ref=e156]:
+          - generic [ref=e157]: Come say hello
+          - heading "Where to find us" [level=2] [ref=e158]
+          - paragraph [ref=e160]: Nonna Delia's is at 18-32 College Point Blvd, Queens, NY (in College Point, beside Dunkin' and College Point Optometric Associates, near Fisherman Depot and City Fresh Market). We're open Mon–Thu 10 AM to 9:30 PM; Fri–Sat 10 AM to 10:30 PM; Sun 10 AM to 9:30 PM. Call (718) 445-6662.
+          - generic [ref=e161]:
+            - link "Get directions" [ref=e162] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=18-32%20College%20Point%20Blvd%2C%20Queens%2C%20NY%2011356&destination_place_id=ChIJIeUvtFP1wokRRWtaw39yJQw
+            - link "Call (718) 445-6662" [ref=e163] [cursor=pointer]:
+              - /url: tel:+17184456662
+        - img "Food at Nonna Delia's in Queens (photo 3)" [ref=e166]
+    - navigation "More about us" [ref=e167]:
+      - paragraph [ref=e168]:
+        - link "Hours, parking and directions" [ref=e169] [cursor=pointer]:
+          - /url: /visit/
+        - text: ·
+        - link "Our story" [ref=e170] [cursor=pointer]:
+          - /url: /about/
+        - text: ·
+        - link "Questions answered" [ref=e171] [cursor=pointer]:
+          - /url: /faq/
+    - region [ref=e172]:
+      - generic [ref=e173]:
+        - heading "What our guests say" [level=2] [ref=e174]
+        - paragraph [ref=e175]:
+          - link "4.2★ from 464+ reviews on Google" [ref=e176] [cursor=pointer]:
+            - /url: https://search.google.com/local/reviews?placeid=ChIJIeUvtFP1wokRRWtaw39yJQw
+          - text: ·
+          - link "Leave a review" [ref=e177] [cursor=pointer]:
+            - /url: https://search.google.com/local/writereview?placeid=ChIJIeUvtFP1wokRRWtaw39yJQw
+        - list [ref=e178]:
+          - listitem [ref=e179]:
+            - figure [ref=e180]:
+              - blockquote [ref=e181]:
+                - paragraph [ref=e182]: “I ran into this pizzeria in College Point and WOW! They have a slice counter, restaurant, and bar. The atmosphere was cozy, and decorated with foliage. The service was super attentive and we got suggestions for pizza. Would definitely visit again!”
+              - generic [ref=e183]:
+                - text: Simone Hanlen · Google ·
+                - time [ref=e184]: January 2026
+          - listitem [ref=e185]:
+            - figure [ref=e186]:
+              - blockquote [ref=e187]:
+                - paragraph [ref=e188]: “My friends and I came here for lunch and everything about our experience was stellar! The food was delicious, the staff was incredibly friendly, and the vibes were fantastic! The chicken Alfredo and fried ravioli are amazing! …”
+              - generic [ref=e189]:
+                - text: Madison DeSoto · Google ·
+                - time [ref=e190]: October 2025
+          - listitem [ref=e191]:
+            - figure [ref=e192]:
+              - blockquote [ref=e193]:
+                - paragraph [ref=e194]: “I was visiting from Chicago and I wanted a great pizza 🍕and omggg can I say what a great amazing pizza! Service was awesome! When I come back to N.Y I will get another pizza from Nonnas Delia’s wow thank you”
+              - generic [ref=e195]:
+                - text: Irene Minard · Google ·
+                - time [ref=e196]: June 2026
+    - region [ref=e199]:
+      - heading "Good to know" [level=2] [ref=e200]
+      - list [ref=e201]:
+        - listitem [ref=e202]:
+          - link "Where is Nonna Delia's? +" [ref=e203] [cursor=pointer]:
+            - /url: /faq/#where-is-nonna-delias
+        - listitem [ref=e204]:
+          - link "What are your hours? +" [ref=e205] [cursor=pointer]:
+            - /url: /faq/#what-are-your-hours
+        - listitem [ref=e206]:
+          - link "Where can I park? +" [ref=e207] [cursor=pointer]:
+            - /url: /faq/#where-can-i-park
+        - listitem [ref=e208]:
+          - link "Do you take reservations? +" [ref=e209] [cursor=pointer]:
+            - /url: /faq/#do-you-take-reservations
+        - listitem [ref=e210]:
+          - link "Can I order ahead for pickup? +" [ref=e211] [cursor=pointer]:
+            - /url: /faq/#can-i-order-ahead-for-pickup
+        - listitem [ref=e212]:
+          - link "All questions answered →" [ref=e213] [cursor=pointer]:
+            - /url: /faq/
+    - region [ref=e214]:
+      - generic [ref=e215]:
+        - heading "Hungry? Order online." [level=2] [ref=e216]
+        - generic [ref=e217]:
+          - link "Order now" [ref=e218] [cursor=pointer]:
+            - /url: https://nonnadelias.direct-ordering.com/order-now
+          - paragraph [ref=e219]: 18-32 College Point Blvd · Queens, NY
+  - contentinfo [ref=e220]:
+    - generic [ref=e221]:
+      - list [ref=e222]:
+        - listitem [ref=e223]:
+          - link "Order now" [ref=e224] [cursor=pointer]:
+            - /url: https://nonnadelias.direct-ordering.com/order-now
+        - listitem [ref=e225]:
+          - link "Menu" [ref=e226] [cursor=pointer]:
+            - /url: /menu/
+        - listitem [ref=e227]:
+          - link "About" [ref=e228] [cursor=pointer]:
+            - /url: /about/
+        - listitem [ref=e229]:
+          - link "Visit" [ref=e230] [cursor=pointer]:
+            - /url: /visit/
+        - listitem [ref=e231]:
+          - link "FAQ" [ref=e232] [cursor=pointer]:
+            - /url: /faq/
+      - generic [ref=e233]:
+        - region [ref=e234]:
+          - heading "Location" [level=2] [ref=e235]
+          - paragraph [ref=e236]:
+            - link "18-32 College Point Blvd, Queens, NY 11356 on Google Maps" [ref=e237] [cursor=pointer]:
+              - /url: https://maps.google.com/?cid=875231595657325381
+              - text: 18-32 College Point BlvdQueens, NY 11356
+        - region [ref=e238]:
+          - heading "Hours" [level=2] [ref=e239]
+          - paragraph [ref=e240]: Mon–Thu10 AM – 9:30 PM
+          - paragraph [ref=e241]: Fri–Sat10 AM – 10:30 PM
+          - paragraph [ref=e242]: Sun10 AM – 9:30 PM
+        - region [ref=e243]:
+          - heading "Find us on…" [level=2] [ref=e244]
+          - list [ref=e245]:
+            - listitem [ref=e246]:
+              - link "Nonna Delia's on Instagram" [ref=e247] [cursor=pointer]:
+                - /url: https://www.instagram.com/nonna.delias/
+            - listitem [ref=e250]:
+              - link "Nonna Delia's on Facebook" [ref=e251] [cursor=pointer]:
+                - /url: https://www.facebook.com/nonna.delias/
+            - listitem [ref=e254]:
+              - link "Nonna Delia's on Yelp" [ref=e255] [cursor=pointer]:
+                - /url: https://www.yelp.com/biz/nonna-delias-college-point
+            - listitem [ref=e258]:
+              - link "Nonna Delia's on Tripadvisor" [ref=e259] [cursor=pointer]:
+                - /url: https://www.tripadvisor.com/Restaurant_Review-g47511-d15170733-Reviews-Nonna_Delia_s_Brick_Oven_Pizzeria_Restaurant-College_Point_Queens_New_York.html
+          - paragraph [ref=e262]:
+            - link "Google Maps" [ref=e263] [cursor=pointer]:
+              - /url: https://maps.google.com/?cid=875231595657325381
+          - paragraph [ref=e264]:
+            - link "4.2★ from 464+ reviews on Google" [ref=e265] [cursor=pointer]:
+              - /url: https://search.google.com/local/reviews?placeid=ChIJIeUvtFP1wokRRWtaw39yJQw
+          - paragraph [ref=e266]:
+            - link "Review us on Google" [ref=e267] [cursor=pointer]:
+              - /url: https://search.google.com/local/writereview?placeid=ChIJIeUvtFP1wokRRWtaw39yJQw
+          - heading "Contact us" [level=2] [ref=e268]
+          - paragraph [ref=e269]:
+            - link "(718) 445-6662" [ref=e270] [cursor=pointer]:
+              - /url: tel:+17184456662
+        - region [ref=e271]:
+          - heading "Get the app" [level=2] [ref=e272]
+          - list [ref=e274]:
+            - listitem [ref=e275]:
+              - link "Nonna Delia's app on the App Store" [ref=e276] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/nonna-delias/id6761735841
+                - generic [ref=e279]:
+                  - generic [ref=e280]: Download on the
+                  - generic [ref=e281]: App Store
+            - listitem [ref=e282]:
+              - link "Nonna Delia's app on Google Play" [ref=e283] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.avco.nonnadelias
+                - generic [ref=e289]:
+                  - generic [ref=e290]: Get it on
+                  - generic [ref=e291]: Google Play
+      - generic [ref=e292]:
+        - link "Nonna Delia's home" [ref=e293] [cursor=pointer]:
+          - /url: /
+          - img "Nonna Delia's" [ref=e294]
+        - navigation "Footer" [ref=e295]:
+          - generic [ref=e296]: © 2026 Nonna Delia's
+          - link "FAQ" [ref=e297] [cursor=pointer]:
+            - /url: /faq/
+          - link "Privacy" [ref=e298] [cursor=pointer]:
+            - /url: /privacy/
