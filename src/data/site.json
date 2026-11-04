@@ -1,0 +1,362 @@
+{
+  "site": {
+    "url": "https://nonnadelias.com",
+    "language": "en-US",
+    "marketTier": "dense-metro",
+    "locale": "en_US",
+    "themeColor": "#78150D",
+    "launched": false,
+    "vercelProjectDomain": "",
+    "aiTraining": true,
+    "nav": [
+      "menu",
+      "about",
+      "visit",
+      "faq"
+    ],
+    "menuUpdated": "2026-11-04",
+    "analytics": {
+      "ga4Id": ""
+    },
+    "searchConsoleVerification": "",
+    "redirects": [],
+    "privacyUpdated": "2026-11-04",
+    "menuNotice": "",
+    "headerLogo": "image",
+    "colors": {
+      "brand": "#78150D",
+      "background": "#FFF8EC"
+    },
+    "theme": "corner"
+  },
+  "business": {
+    "name": "Nonna Delia's",
+    "alternateNames": [],
+    "description": "Nonna Delia's is a pizza restaurant in Flushing, NY.",
+    "category": "Pizza restaurant",
+    "gbpCategories": [
+      "Pizza restaurant",
+      "Food delivery"
+    ],
+    "cuisines": [
+      "Pizza"
+    ],
+    "meals": [
+      "lunch",
+      "dinner"
+    ],
+    "services": {
+      "dineIn": true,
+      "takeout": true,
+      "delivery": true,
+      "catering": false,
+      "reservations": false,
+      "privateEvents": false
+    },
+    "priceRange": "$",
+    "foundingYear": null,
+    "founders": [],
+    "phone": "+1-718-445-6662",
+    "phoneDisplay": "(718) 445-6662",
+    "additionalPhones": [],
+    "email": "",
+    "address": {
+      "street": "18-32 College Point Blvd",
+      "locality": "Queens",
+      "region": "NY",
+      "postalCode": "11356",
+      "country": "US",
+      "neighborhood": "Flushing"
+    },
+    "geo": {
+      "lat": 40.78221,
+      "lng": -73.84609
+    },
+    "hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "opens": "10:00",
+        "closes": "21:30"
+      },
+      {
+        "days": [
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "10:00",
+        "closes": "22:30"
+      },
+      {
+        "days": [
+          "Sunday"
+        ],
+        "opens": "10:00",
+        "closes": "21:30"
+      }
+    ],
+    "hoursNote": "",
+    "specialClosures": [],
+    "servicePeriods": [],
+    "serviceArea": [],
+    "delivery": {
+      "radiusMiles": null,
+      "fee": "",
+      "minimum": "",
+      "partners": []
+    },
+    "ordering": {
+      "url": "https://nonnadelias.direct-ordering.com/order-now",
+      "label": "Order now",
+      "provider": ""
+    },
+    "reservations": {
+      "url": ""
+    },
+    "apps": {
+      "iosUrl": "https://apps.apple.com/us/app/nonna-delias/id6761735841",
+      "androidUrl": "https://play.google.com/store/apps/details?id=com.avco.nonnadelias",
+      "iosAppId": "6761735841"
+    },
+    "google": {
+      "placeId": "ChIJIeUvtFP1wokRRWtaw39yJQw",
+      "mapsUrl": "https://maps.google.com/?cid=875231595657325381",
+      "reviewUrl": "https://search.google.com/local/writereview?placeid=ChIJIeUvtFP1wokRRWtaw39yJQw",
+      "embedUrl": "",
+      "rating": 4.2,
+      "reviewCount": 464,
+      "ratingCheckedOn": "2026-11-04"
+    },
+    "social": {
+      "instagram": "https://www.instagram.com/nonna.delias/",
+      "facebook": "https://www.facebook.com/nonna.delias/",
+      "tiktok": "",
+      "yelp": "https://www.yelp.com/biz/nonna-delias-college-point",
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g47511-d15170733-Reviews-Nonna_Delia_s_Brick_Oven_Pizzeria_Restaurant-College_Point_Queens_New_York.html",
+      "x": ""
+    },
+    "press": [],
+    "awards": [],
+    "reviews": [
+      {
+        "author": "Simone Hanlen",
+        "text": "I ran into this pizzeria in College Point and WOW! They have a slice counter, restaurant, and bar. The atmosphere was cozy, and decorated with foliage.\nThe service was super attentive and we got suggestions for pizza. Would definitely visit again!",
+        "source": "Google",
+        "date": "2026-01-18",
+        "rating": 5,
+        "url": "",
+        "context": "dine-in"
+      },
+      {
+        "author": "Madison DeSoto",
+        "text": "My friends and I came here for lunch and everything about our experience was stellar! The food was delicious, the staff was incredibly friendly, and the vibes were fantastic! The chicken Alfredo and fried ravioli are amazing! After we finished eating the manager brought us some delicious cinnamon sugar fried dough and we ordered a tiramisu and coffee which were just lovely! I can’t stress enough how kind and accommodating the manager was. We will definitely be going back.",
+        "source": "Google",
+        "date": "2025-10-09",
+        "rating": 5,
+        "url": "",
+        "context": "dine-in"
+      },
+      {
+        "author": "Irene Minard",
+        "text": "I was visiting from Chicago and I wanted a great pizza 🍕and omggg can I say what a great amazing pizza! Service was awesome! When I come back to N.Y I will get another pizza from   Nonnas Delia’s wow thank you",
+        "source": "Google",
+        "date": "2026-06-21",
+        "rating": 5,
+        "url": "",
+        "context": "dine-in"
+      },
+      {
+        "author": "Joel Monserrate",
+        "text": "A most excellent pizzeria restaurant excellent service excellent food and plenty of variety. Did you know they have cinnamon zeppoles?Awesome!",
+        "source": "Google",
+        "date": "2026-04-19",
+        "rating": 5,
+        "url": "",
+        "context": "dine-in"
+      }
+    ],
+    "featuredItems": [
+      "Upside Down Sicilian Pizza",
+      "Cauliflower Gluten Free Pizza",
+      "Sicilian Cheese Pizza",
+      "Large Hawaiian Pizza",
+      "Large Buffalo Chicken Pizza",
+      "Mini Gluten Free Pizza"
+    ],
+    "catering": {
+      "menuFile": "catering",
+      "leadTime": "",
+      "minimum": "",
+      "serviceArea": [],
+      "deliveryNote": "",
+      "contact": "",
+      "days": "",
+      "ordering": "",
+      "payment": "",
+      "cancellation": "",
+      "events": "",
+      "headcountGuide": "",
+      "dietary": ""
+    },
+    "faq": [
+      {
+        "q": "Where is Nonna Delia's?",
+        "a": "Nonna Delia's is at 18-32 College Point Blvd, Queens, NY 11356, in Flushing. It's in College Point, beside Dunkin' and College Point Optometric Associates, near Fisherman Depot and City Fresh Market.",
+        "topic": "Hours and visiting"
+      },
+      {
+        "q": "What are your hours?",
+        "a": "We're open Mon–Thu 10 AM to 9:30 PM; Fri–Sat 10 AM to 10:30 PM; Sun 10 AM to 9:30 PM.",
+        "topic": "Hours and visiting"
+      },
+      {
+        "q": "Where can I park?",
+        "a": "There's free street parking and paid street parking. The nearest bus stop is College Point Blvd/20 Av, just steps away.",
+        "topic": "Hours and visiting"
+      },
+      {
+        "q": "Do you take reservations?",
+        "a": "No, we're walk-in only.",
+        "topic": "Hours and visiting"
+      },
+      {
+        "q": "Can I order ahead for pickup?",
+        "a": "Yes. Order online at nonnadelias.direct-ordering.com/order-now and pick it up at the counter.",
+        "topic": "Ordering and delivery"
+      },
+      {
+        "q": "Do you deliver?",
+        "a": "Nonna Delia's delivers the full menu from 18-32 College Point Blvd to homes and offices in Queens. Order online at nonnadelias.direct-ordering.com/order-now or call (718) 445-6662 during our hours (Mon–Thu 10 AM to 9:30 PM; Fri–Sat 10 AM to 10:30 PM; Sun 10 AM to 9:30 PM).",
+        "topic": "Ordering and delivery"
+      },
+      {
+        "q": "Do you have gluten-free options?",
+        "a": "Yes. The menu lists the Mini Gluten Free Pizza ($16.95) and the Cauliflower Gluten Free Pizza ($16.95). Ask us about how it's prepared if you have an allergy.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What payment do you accept?",
+        "a": "We accept credit cards, debit cards and tap to pay.",
+        "topic": "Ordering and delivery"
+      },
+      {
+        "q": "Is the restaurant wheelchair accessible?",
+        "a": "Yes. Wheelchair-accessible entrance, restroom and seating.",
+        "topic": "Hours and visiting"
+      },
+      {
+        "q": "What should I order the first time?",
+        "a": "Start with our signature dishes: the Upside Down Sicilian Pizza ($26.95), the Cauliflower Gluten Free Pizza ($16.95), the Sicilian Cheese Pizza ($26.95), the Large Hawaiian Pizza ($29.95), the Large Buffalo Chicken Pizza ($28.95) and the Mini Gluten Free Pizza ($16.95).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "How much does a meal cost?",
+        "a": "Most dishes on the Nonna Delia's menu cost $7.95 to $26.95. The menu has 11 sections: Pizza, Gourmet Pizza, Appetizers, Soups, Salads, Sides, Calzones, Hot & Cold Heros, Jumbo Burgers, Pasta and Pasta Lunch, with every price listed on the menu page.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What is the Upside Down Sicilian Pizza?",
+        "a": "The Upside Down Sicilian Pizza costs $26.95.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What is the Cauliflower Gluten Free Pizza?",
+        "a": "The Cauliflower Gluten Free Pizza costs $16.95.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What is the Sicilian Cheese Pizza?",
+        "a": "The Sicilian Cheese Pizza costs $26.95.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What is the Large Hawaiian Pizza?",
+        "a": "The Large Hawaiian Pizza costs $29.95.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What pizza do you serve?",
+        "a": "The Pizza section of our menu has Mini Cheese Pizza ($13.95), Cheese Pizza (medium $19.95 or large $23.95), Marinara Sicilian Pizza ($26.95), Upside Down Sicilian Pizza ($26.95) and Mini Gluten Free Pizza ($16.95), and 2 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What gourmet pizza do you serve?",
+        "a": "The Gourmet Pizza section of our menu has Nonna Famous Grandma Sicilian Pizza ($27.95), Nonna Famous Sicilian Alla Vodka Pizza ($29.95), Mini Chicken & Broccoli Pizza ($16.95), Large Chicken & Broccoli Pizza ($28.95) and Mini BBQ Chicken Pizza ($16.95), and 7 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What appetizers do you serve?",
+        "a": "The Appetizers section of our menu has Mini Rice Balls ($3), Mini Fried Capellini ($3), Garlic Bread ($4.95), Bruschetta ($10.95) and Garlic Knots ($2.50), and 6 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What soups do you serve?",
+        "a": "The Soups section of our menu has Minestrone Soup ($7.25), Stracciatella Romano Soup ($7.95), Pasta e Fagioli Soup ($7.25), Chicken Orzo Soup ($7.25) and Italian Wedding Soup ($7.95), and 1 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What salads do you serve?",
+        "a": "The Salads section of our menu has House Salad ($9.95), Caesar Salad ($10.95), Nonna's Mixed Salad ($16.95), Nonna's Beet Salad ($16.95) and The Greek Salad ($13.95), and 1 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What calzones do you serve?",
+        "a": "The Calzones section of our menu has Calzone ($8.95), Pepperoni Roll ($8.25) and Spinach Roll ($8.25).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What hot & cold heros do you serve?",
+        "a": "The Hot & Cold Heros section of our menu has Ham & Provolone Hero ($11.95), Meatball Hero ($10.95), Eggplant Hero ($10.95), Pepper & Egg Hero ($10.95) and Chicken Parm Hero ($11.95).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What jumbo burgers do you serve?",
+        "a": "The Jumbo Burgers section of our menu has Beef Burger ($10.95), Cheeseburger ($11.95), Mushroom Burger ($12.95), Italian Burger ($12.95) and Dressed To Kill Burger ($12.95), and 1 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What pasta do you serve?",
+        "a": "The Pasta section of our menu has Nonna's Tomato Sauce Pasta ($12.95), Spaghetti & Meatballs ($14.95), Spaghetti & Sausage ($13.95), Linguine Agli Olio ($14.95) and Rigatoni Marinara ($14.95), and 17 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What pasta lunch do you serve?",
+        "a": "The Pasta Lunch section of our menu has Nonna's Tomato Sauce Pasta Lunch ($9.95), Spaghetti & Meatballs Lunch ($12.95), Spaghetti & Sausage Lunch ($12.95), Linguine Agli Olio Lunch ($11.95) and Rigatoni Marinara Lunch ($11.95), and 10 more.",
+        "topic": "Food and menu"
+      }
+    ],
+    "video": null,
+    "logo": "logo.png",
+    "healthInspectionUrl": "",
+    "foundingDate": "",
+    "visit": {
+      "landmarks": "In College Point, beside Dunkin' and College Point Optometric Associates, near Fisherman Depot and City Fresh Market.",
+      "parking": "There's free street parking and paid street parking.",
+      "transit": "The nearest bus stop is College Point Blvd/20 Av, just steps away.",
+      "accessibility": "Wheelchair-accessible entrance, restroom and seating.",
+      "arrival": "",
+      "pickup": ""
+    },
+    "amenities": {
+      "outdoorSeating": true,
+      "wheelchairAccessible": true,
+      "parking": true
+    },
+    "paymentMethods": [
+      "Credit cards",
+      "Debit cards",
+      "Tap to pay"
+    ],
+    "dietaryNote": "",
+    "ownerWords": "Nonna Delia's is a pizza restaurant at 18-32 College Point Blvd in Queens, in Flushing, NY. Look for us in College Point, beside Dunkin' and College Point Optometric Associates, near Fisherman Depot and City Fresh Market. We're open for lunch and dinner, seven days a week.\n\nThe heart of the menu is the gourmet pizza section: 12 choices, from the Nonna Famous Grandma Sicilian Pizza to the Nonna Famous Sicilian Alla Vodka Pizza. There's also a pizza list with seven choices. For guests who avoid gluten, the menu has the Mini Gluten Free Pizza and the Cauliflower Gluten Free Pizza.\n\nGuests rate Nonna Delia's 4.2 stars across 464+ Google reviews. “The food was delicious, the staff was incredibly friendly, and the vibes were fantastic!” (Madison DeSoto, Google review) “I was visiting from Chicago and I wanted a great pizza 🍕and omggg can I say what a great amazing pizza!” (Irene Minard, Google review)\n\nYou can eat in, take out or order delivery. You can order ahead online and pick it up at the restaurant. There's free street parking and paid street parking. Stop by 18-32 College Point Blvd, or call (718) 445-6662 and we'll have your order ready. We cater parties of all sizes, from office meetings to family gatherings and special events. Build the spread around pizza, pasta, salads, trays, and Italian comfort food.",
+    "milestones": [],
+    "featuredNotes": {}
+  },
+  "seo": {
+    "dishTerms": []
+  }
+}

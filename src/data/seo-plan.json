@@ -1,0 +1,317 @@
+{
+  "source": "playbook estimate (dense-metro tier, assets/keyword-playbook.json)",
+  "location": "Queens, NY",
+  "pages": {
+    "home": {
+      "primary": "pizza flushing",
+      "secondary": [
+        "best dinner in queens",
+        "best dinner queens",
+        "dinner flushing",
+        "lunch queens",
+        "best lunch in queens"
+      ],
+      "options": [
+        {
+          "query": "dinner queens",
+          "volume": 140
+        },
+        {
+          "query": "dinner flushing",
+          "volume": 70
+        },
+        {
+          "query": "lunch queens",
+          "volume": 40
+        },
+        {
+          "query": "lunch flushing",
+          "volume": 20
+        },
+        {
+          "query": "dinner downtown queens",
+          "volume": 10
+        },
+        {
+          "query": "pizza restaurant queens",
+          "volume": 0
+        }
+      ],
+      "decide": "Confirm primary = what the business is (e.g. 'breakfast asheville' for a breakfast cafe), not just the top volume.",
+      "decision": "pizza flushing: matches what Nonna Delia's is (pizza restaurant); unknown/mo (playbook estimate). Picked automatically by quickbuild."
+    },
+    "menu": {
+      "primary": "nonna delia's menu",
+      "secondary": []
+    }
+  },
+  "dishes": [
+    {
+      "term": "pasta",
+      "item": "",
+      "slug": "pasta",
+      "primary": "pasta queens",
+      "secondary": [
+        "best pasta queens",
+        "best pasta in queens",
+        "pasta flushing",
+        "best pasta flushing"
+      ],
+      "volume": 75,
+      "status": "no-page",
+      "decision": "no page: estimate 75/mo (< 30). Covered on /menu/ and the homepage."
+    },
+    {
+      "term": "upside down sicilian pizza",
+      "item": "Upside Down Sicilian Pizza",
+      "slug": "upside-down-sicilian-pizza",
+      "primary": "upside down sicilian pizza queens",
+      "secondary": [
+        "best upside down sicilian pizza queens",
+        "best upside down sicilian pizza in queens",
+        "upside down sicilian pizza flushing",
+        "best upside down sicilian pizza flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "cauliflower gluten free pizza",
+      "item": "Upside Down Sicilian Pizza",
+      "slug": "cauliflower-gluten-free-pizza",
+      "primary": "cauliflower gluten free pizza queens",
+      "secondary": [
+        "best cauliflower gluten free pizza queens",
+        "best cauliflower gluten free pizza in queens",
+        "cauliflower gluten free pizza flushing",
+        "best cauliflower gluten free pizza flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "sicilian cheese pizza",
+      "item": "Upside Down Sicilian Pizza",
+      "slug": "sicilian-cheese-pizza",
+      "primary": "sicilian cheese pizza queens",
+      "secondary": [
+        "best sicilian cheese pizza queens",
+        "best sicilian cheese pizza in queens",
+        "sicilian cheese pizza flushing",
+        "best sicilian cheese pizza flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "large hawaiian pizza",
+      "item": "Upside Down Sicilian Pizza",
+      "slug": "large-hawaiian-pizza",
+      "primary": "large hawaiian pizza queens",
+      "secondary": [
+        "best large hawaiian pizza queens",
+        "best large hawaiian pizza in queens",
+        "large hawaiian pizza flushing",
+        "best large hawaiian pizza flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "large buffalo chicken pizza",
+      "item": "Upside Down Sicilian Pizza",
+      "slug": "large-buffalo-chicken-pizza",
+      "primary": "large buffalo chicken pizza queens",
+      "secondary": [
+        "best large buffalo chicken pizza queens",
+        "best large buffalo chicken pizza in queens",
+        "large buffalo chicken pizza flushing",
+        "best large buffalo chicken pizza flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "mini gluten free pizza",
+      "item": "Upside Down Sicilian Pizza",
+      "slug": "mini-gluten-free-pizza",
+      "primary": "mini gluten free pizza queens",
+      "secondary": [
+        "best mini gluten free pizza queens",
+        "best mini gluten free pizza in queens",
+        "mini gluten free pizza flushing",
+        "best mini gluten free pizza flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "pizza",
+      "item": "Upside Down Sicilian Pizza",
+      "slug": "pizza",
+      "primary": "pizza queens",
+      "secondary": [
+        "best pizza queens",
+        "best pizza in queens",
+        "pizza flushing",
+        "best pizza flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "gourmet pizza",
+      "item": "Upside Down Sicilian Pizza",
+      "slug": "gourmet-pizza",
+      "primary": "gourmet pizza queens",
+      "secondary": [
+        "best gourmet pizza queens",
+        "best gourmet pizza in queens",
+        "gourmet pizza flushing",
+        "best gourmet pizza flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "appetizers",
+      "item": "",
+      "slug": "appetizers",
+      "primary": "appetizers queens",
+      "secondary": [
+        "best appetizers queens",
+        "best appetizers in queens",
+        "appetizers flushing",
+        "best appetizers flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: estimate None/mo (< 30). Covered on /menu/ and the homepage."
+    },
+    {
+      "term": "soups",
+      "item": "",
+      "slug": "soups",
+      "primary": "soups queens",
+      "secondary": [
+        "best soups queens",
+        "best soups in queens",
+        "soups flushing",
+        "best soups flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: estimate None/mo (< 30). Covered on /menu/ and the homepage."
+    },
+    {
+      "term": "salads",
+      "item": "",
+      "slug": "salads",
+      "primary": "salads queens",
+      "secondary": [
+        "best salads queens",
+        "best salads in queens",
+        "salads flushing",
+        "best salads flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: estimate None/mo (< 30). Covered on /menu/ and the homepage."
+    },
+    {
+      "term": "calzones",
+      "item": "",
+      "slug": "calzones",
+      "primary": "calzones queens",
+      "secondary": [
+        "best calzones queens",
+        "best calzones in queens",
+        "calzones flushing",
+        "best calzones flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: estimate None/mo (< 30). Covered on /menu/ and the homepage."
+    },
+    {
+      "term": "jumbo burgers",
+      "item": "",
+      "slug": "jumbo-burgers",
+      "primary": "jumbo burgers queens",
+      "secondary": [
+        "best jumbo burgers queens",
+        "best jumbo burgers in queens",
+        "jumbo burgers flushing",
+        "best jumbo burgers flushing"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: estimate None/mo (< 30). Covered on /menu/ and the homepage."
+    }
+  ],
+  "areas": [
+    {
+      "name": "Flushing",
+      "slug": "flushing",
+      "volume": 90,
+      "primary": "dinner flushing",
+      "status": "section-only",
+      "decision": "no page: listed in the service-area table, areaServed and llms.txt."
+    }
+  ],
+  "nearMe": [
+    {
+      "query": "dinner near me",
+      "volume": 13570
+    },
+    {
+      "query": "lunch near me",
+      "volume": 3880
+    },
+    {
+      "query": "pizza near me",
+      "volume": 780
+    },
+    {
+      "query": "best pizza near me",
+      "volume": 780
+    },
+    {
+      "query": "pizza restaurant near me",
+      "volume": 410
+    },
+    {
+      "query": "best dinner near me",
+      "volume": 190
+    },
+    {
+      "query": "pasta near me",
+      "volume": 100
+    },
+    {
+      "query": "best pasta near me",
+      "volume": 100
+    },
+    {
+      "query": "best lunch near me",
+      "volume": 60
+    },
+    {
+      "query": "upside down sicilian pizza near me",
+      "volume": 20
+    }
+  ],
+  "notes": [
+    "Dish/area pages marked 'candidate' still need the page gate in references/local-seo.md §3 (real substance from intake). Max 5 dish pages, 4 area pages.",
+    "'near me' queries are won through the Google Business Profile and relevance, never by writing 'near me' on pages.",
+    "Targets chosen automatically by quickbuild.py from the offline playbook."
+  ]
+}

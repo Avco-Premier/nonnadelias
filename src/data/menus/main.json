@@ -1,0 +1,888 @@
+{
+  "menuName": "Menu",
+  "subcategories": [
+    {
+      "name": "Pizza",
+      "description": "",
+      "displayOrder": 0,
+      "imageUrl": "",
+      "availabilitySchedules": [],
+      "items": [
+        {
+          "name": "Mini Cheese Pizza",
+          "description": "",
+          "price": "13.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Cheese Pizza",
+          "description": "",
+          "price": "19.95",
+          "displayOrder": 2,
+          "imageUrl": "",
+          "availabilitySchedules": [],
+          "modifications": [
+            {
+              "name": "Size",
+              "isRequired": true,
+              "minChoices": 1,
+              "maxChoices": 1,
+              "detailedModifications": [
+                {
+                  "name": "Medium",
+                  "additionalPrice": "0.00"
+                },
+                {
+                  "name": "Large",
+                  "additionalPrice": "4.00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Marinara Sicilian Pizza",
+          "description": "",
+          "price": "26.95",
+          "displayOrder": 3,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Upside Down Sicilian Pizza",
+          "description": "",
+          "price": "26.95",
+          "displayOrder": 4,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Mini Gluten Free Pizza",
+          "description": "",
+          "price": "16.95",
+          "displayOrder": 5,
+          "imageUrl": "",
+          "availabilitySchedules": [],
+          "diets": [
+            "glutenFree"
+          ]
+        },
+        {
+          "name": "Cauliflower Gluten Free Pizza",
+          "description": "",
+          "price": "16.95",
+          "displayOrder": 6,
+          "imageUrl": "",
+          "availabilitySchedules": [],
+          "diets": [
+            "glutenFree"
+          ]
+        },
+        {
+          "name": "Sicilian Cheese Pizza",
+          "description": "",
+          "price": "26.95",
+          "displayOrder": 7,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        }
+      ]
+    },
+    {
+      "name": "Gourmet Pizza",
+      "description": "",
+      "displayOrder": 1,
+      "imageUrl": "",
+      "availabilitySchedules": [],
+      "items": [
+        {
+          "name": "Nonna Famous Grandma Sicilian Pizza",
+          "description": "",
+          "price": "27.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Nonna Famous Sicilian Alla Vodka Pizza",
+          "description": "",
+          "price": "29.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Mini Chicken & Broccoli Pizza",
+          "description": "",
+          "price": "16.95",
+          "displayOrder": 2,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Large Chicken & Broccoli Pizza",
+          "description": "",
+          "price": "28.95",
+          "displayOrder": 3,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Mini BBQ Chicken Pizza",
+          "description": "",
+          "price": "16.95",
+          "displayOrder": 4,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Large BBQ Chicken Pizza",
+          "description": "",
+          "price": "28.95",
+          "displayOrder": 5,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Mini Buffalo Chicken Pizza",
+          "description": "",
+          "price": "16.95",
+          "displayOrder": 6,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Large Buffalo Chicken Pizza",
+          "description": "",
+          "price": "28.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Mini Vegetable Pizza",
+          "description": "",
+          "price": "16.95",
+          "displayOrder": 8,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Large Vegetable Pizza",
+          "description": "",
+          "price": "29.95",
+          "displayOrder": 9,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Mini Hawaiian Pizza",
+          "description": "",
+          "price": "17.95",
+          "displayOrder": 10,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Large Hawaiian Pizza",
+          "description": "",
+          "price": "29.95",
+          "displayOrder": 11,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        }
+      ]
+    },
+    {
+      "name": "Appetizers",
+      "description": "",
+      "displayOrder": 9,
+      "imageUrl": "",
+      "availabilitySchedules": [],
+      "items": [
+        {
+          "name": "Mini Rice Balls",
+          "description": "",
+          "price": "3.00",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Mini Fried Capellini",
+          "description": "",
+          "price": "3.00",
+          "displayOrder": 2,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Garlic Bread",
+          "description": "",
+          "price": "4.95",
+          "displayOrder": 3,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Bruschetta",
+          "description": "",
+          "price": "10.95",
+          "displayOrder": 4,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Garlic Knots",
+          "description": "",
+          "price": "2.50",
+          "displayOrder": 5,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Calamari Fritti",
+          "description": "",
+          "price": "16.95",
+          "displayOrder": 6,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Mozzarella Sticks",
+          "description": "",
+          "price": "7.95",
+          "displayOrder": 7,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Fried Ravioli",
+          "description": "",
+          "price": "11.95",
+          "displayOrder": 8,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Chicken Tenders",
+          "description": "",
+          "price": "10.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Buffalo Wings",
+          "description": "",
+          "price": "11.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Mussels Marinara",
+          "description": "",
+          "price": "15.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        }
+      ]
+    },
+    {
+      "name": "Soups",
+      "description": "",
+      "displayOrder": 12,
+      "imageUrl": "",
+      "availabilitySchedules": [],
+      "items": [
+        {
+          "name": "Minestrone Soup",
+          "description": "",
+          "price": "7.25",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Stracciatella Romano Soup",
+          "description": "",
+          "price": "7.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Pasta e Fagioli Soup",
+          "description": "",
+          "price": "7.25",
+          "displayOrder": 2,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Chicken Orzo Soup",
+          "description": "",
+          "price": "7.25",
+          "displayOrder": 3,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Italian Wedding Soup",
+          "description": "",
+          "price": "7.95",
+          "displayOrder": 4,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Tortellini in Brodo Soup",
+          "description": "",
+          "price": "7.95",
+          "displayOrder": 5,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "description": "",
+      "displayOrder": 13,
+      "imageUrl": "",
+      "availabilitySchedules": [],
+      "items": [
+        {
+          "name": "House Salad",
+          "description": "",
+          "price": "9.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Caesar Salad",
+          "description": "",
+          "price": "10.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Nonna's Mixed Salad",
+          "description": "",
+          "price": "16.95",
+          "displayOrder": 3,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Nonna's Beet Salad",
+          "description": "",
+          "price": "16.95",
+          "displayOrder": 4,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "The Greek Salad",
+          "description": "",
+          "price": "13.95",
+          "displayOrder": 5,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Island Salad",
+          "description": "",
+          "price": "17.95",
+          "displayOrder": 6,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "description": "",
+      "displayOrder": 14,
+      "imageUrl": "",
+      "availabilitySchedules": [],
+      "items": [
+        {
+          "name": "French Fries",
+          "description": "",
+          "price": "6.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Rice",
+          "description": "",
+          "price": "6.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        }
+      ]
+    },
+    {
+      "name": "Calzones",
+      "description": "",
+      "displayOrder": 15,
+      "imageUrl": "",
+      "availabilitySchedules": [],
+      "items": [
+        {
+          "name": "Calzone",
+          "description": "",
+          "price": "8.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Pepperoni Roll",
+          "description": "",
+          "price": "8.25",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Spinach Roll",
+          "description": "",
+          "price": "8.25",
+          "displayOrder": 3,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        }
+      ]
+    },
+    {
+      "name": "Hot & Cold Heros",
+      "description": "",
+      "displayOrder": 16,
+      "imageUrl": "",
+      "availabilitySchedules": [],
+      "items": [
+        {
+          "name": "Ham & Provolone Hero",
+          "description": "",
+          "price": "11.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Meatball Hero",
+          "description": "",
+          "price": "10.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Eggplant Hero",
+          "description": "",
+          "price": "10.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Pepper & Egg Hero",
+          "description": "",
+          "price": "10.95",
+          "displayOrder": 2,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Chicken Parm Hero",
+          "description": "",
+          "price": "11.95",
+          "displayOrder": 8,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        }
+      ]
+    },
+    {
+      "name": "Jumbo Burgers",
+      "description": "",
+      "displayOrder": 18,
+      "imageUrl": "",
+      "availabilitySchedules": [],
+      "items": [
+        {
+          "name": "Beef Burger",
+          "description": "",
+          "price": "10.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Cheeseburger",
+          "description": "",
+          "price": "11.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Mushroom Burger",
+          "description": "",
+          "price": "12.95",
+          "displayOrder": 2,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Italian Burger",
+          "description": "",
+          "price": "12.95",
+          "displayOrder": 3,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Dressed To Kill Burger",
+          "description": "",
+          "price": "12.95",
+          "displayOrder": 4,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Veggie Burger",
+          "description": "",
+          "price": "11.95",
+          "displayOrder": 6,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        }
+      ]
+    },
+    {
+      "name": "Pasta",
+      "description": "",
+      "displayOrder": 19,
+      "imageUrl": "",
+      "availabilitySchedules": [],
+      "items": [
+        {
+          "name": "Nonna's Tomato Sauce Pasta",
+          "description": "",
+          "price": "12.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Spaghetti & Meatballs",
+          "description": "",
+          "price": "14.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Spaghetti & Sausage",
+          "description": "",
+          "price": "13.95",
+          "displayOrder": 2,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Linguine Agli Olio",
+          "description": "",
+          "price": "14.95",
+          "displayOrder": 3,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Rigatoni Marinara",
+          "description": "",
+          "price": "14.95",
+          "displayOrder": 4,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Spaghetti Bolognese",
+          "description": "",
+          "price": "17.95",
+          "displayOrder": 5,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Low Fat Spinach Ravioli",
+          "description": "",
+          "price": "17.95",
+          "displayOrder": 6,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Rigatoni Filleto Di Pomodoro",
+          "description": "",
+          "price": "15.95",
+          "displayOrder": 7,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Gnocchi Sorrentino",
+          "description": "",
+          "price": "17.95",
+          "displayOrder": 8,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Penne Con Broccoli",
+          "description": "",
+          "price": "17.95",
+          "displayOrder": 9,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Fettuccine Alfredo",
+          "description": "",
+          "price": "18.95",
+          "displayOrder": 11,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Rigatoni Nonna",
+          "description": "",
+          "price": "17.95",
+          "displayOrder": 12,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Angel Hair Carbonara",
+          "description": "",
+          "price": "19.95",
+          "displayOrder": 13,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Rigatoni In Melanzana",
+          "description": "",
+          "price": "17.95",
+          "displayOrder": 14,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Penne Alla Vodka",
+          "description": "",
+          "price": "18.95",
+          "displayOrder": 15,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Lobster Ravioli Alla Vodka",
+          "description": "",
+          "price": "22.95",
+          "displayOrder": 16,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Nonna's Puttanesca",
+          "description": "",
+          "price": "20.95",
+          "displayOrder": 17,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Penne Broccoli Rabe",
+          "description": "",
+          "price": "20.95",
+          "displayOrder": 18,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Chicken Parmigiana",
+          "description": "",
+          "price": "21.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Chicken Marsala",
+          "description": "",
+          "price": "21.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Chicken Cacciatore",
+          "description": "",
+          "price": "23.95",
+          "displayOrder": 3,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Di Mare",
+          "description": "",
+          "price": "26.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        }
+      ]
+    },
+    {
+      "name": "Pasta Lunch",
+      "description": "",
+      "displayOrder": 32,
+      "imageUrl": "",
+      "availabilitySchedules": [],
+      "items": [
+        {
+          "name": "Nonna's Tomato Sauce Pasta Lunch",
+          "description": "",
+          "price": "9.95",
+          "displayOrder": 0,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Spaghetti & Meatballs Lunch",
+          "description": "",
+          "price": "12.95",
+          "displayOrder": 1,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Spaghetti & Sausage Lunch",
+          "description": "",
+          "price": "12.95",
+          "displayOrder": 2,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Linguine Agli Olio Lunch",
+          "description": "",
+          "price": "11.95",
+          "displayOrder": 3,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Rigatoni Marinara Lunch",
+          "description": "",
+          "price": "11.95",
+          "displayOrder": 4,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Spaghetti Bolognese Lunch",
+          "description": "",
+          "price": "14.95",
+          "displayOrder": 5,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Low Fat Spinach Ravioli Lunch",
+          "description": "",
+          "price": "14.95",
+          "displayOrder": 6,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Rigatoni Filleto Di Pomodoro Lunch",
+          "description": "",
+          "price": "13.95",
+          "displayOrder": 7,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Gnocchi Sorrentino Lunch",
+          "description": "",
+          "price": "13.95",
+          "displayOrder": 8,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Penne Con Broccoli Lunch",
+          "description": "",
+          "price": "13.95",
+          "displayOrder": 9,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Angel Hair Carbonara Lunch",
+          "description": "",
+          "price": "14.95",
+          "displayOrder": 11,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Rigatoni Nonna Lunch",
+          "description": "",
+          "price": "14.95",
+          "displayOrder": 12,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Fettuccine Alfredo Lunch",
+          "description": "",
+          "price": "13.95",
+          "displayOrder": 13,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Rigatoni In Melanzana Lunch",
+          "description": "",
+          "price": "14.95",
+          "displayOrder": 14,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        },
+        {
+          "name": "Penne Alla Vodka Lunch",
+          "description": "",
+          "price": "13.95",
+          "displayOrder": 15,
+          "imageUrl": "",
+          "availabilitySchedules": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+/* Nonna Delia's palette on the "corner" look.
+   Nonna Red #78150D · Logo Gold #E6B444 · Warm Cream #FFF8EC · Soft Parmesan #F0E3CB · Espresso #2D211B · Deep Burgundy #550E09 */
+html[data-variant="corner"]:root {
+  --t-black: #2D211B;
+  --t-red: #78150D;
+  --t-red-ink: #78150D;
+  --t-red-hot: #E6B444;
+  --t-cream: #FFF8EC;
+  --t-sand: #F0E3CB;
+  --t-ink: #2D211B;
+  --t-muted: #5d4a3f;
+  --t-grey: #e3d3b4;
+  --t-soft: #F0E3CB;
+  --t-rule: rgb(45 33 27 / .18);
+  --t-rule-dark: rgb(230 180 68 / .35);
+  --bg: #FFF8EC;
+  --brand: #78150D;
+  --brand-ink: #FFF8EC;
+  --night: #78150D;
+  --sand: #F0E3CB;
+  --surface: #F0E3CB;
+  --gold: #E6B444;
+}
+html[data-variant="corner"] .btn:hover,
+html[data-variant="corner"] a.btn:hover,
+html[data-variant="corner"] button:hover,
+html[data-variant="corner"] [class*="btn-"]:hover { background-color: #550E09; border-color: #550E09; }
+html[data-variant="corner"] :is(.header, header.site-header, .site-header) { border-bottom: 3px solid #E6B444; }
+html[data-variant="corner"] footer { border-top: 4px solid #E6B444; }
+html[data-variant="corner"] .cta-band .hl { color: #E6B444; }

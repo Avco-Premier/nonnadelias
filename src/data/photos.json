@@ -1,0 +1,89 @@
+[
+  {
+    "file": "google-1.jpg",
+    "alt": "Food at Nonna Delia's in Queens (photo 1)",
+    "subject": "dish"
+  },
+  {
+    "file": "google-2.jpg",
+    "alt": "Food at Nonna Delia's in Queens (photo 2)",
+    "subject": "dish"
+  },
+  {
+    "file": "google-3.jpg",
+    "alt": "Food at Nonna Delia's in Queens (photo 3)",
+    "subject": "dish"
+  },
+  {
+    "file": "storefront-sign.jpg",
+    "alt": "Storefront sign of Nonna Delia's at 18-32 College Point Blvd, Queens",
+    "subject": "exterior",
+    "use": [
+      "visit-hero",
+      "social",
+      "about-gallery"
+    ]
+  },
+  {
+    "file": "pizza-slice.jpg",
+    "alt": "Cheese Pizza Slice at Nonna Delia's in Flushing",
+    "subject": "dish",
+    "dish": "Cheese Pizza Slice"
+  },
+  {
+    "file": "grandma-square.jpg",
+    "alt": "Grandma square at Nonna Delia's in Queens",
+    "subject": "dish"
+  },
+  {
+    "file": "large-cheese-pizza.jpg",
+    "alt": "Cheese Pizza",
+    "subject": "dish",
+    "dish": "Cheese Pizza"
+  },
+  {
+    "file": "marinara-sicilian-pizza.jpg",
+    "alt": "Marinara Sicilian Pizza",
+    "subject": "dish",
+    "dish": "Marinara Sicilian Pizza"
+  },
+  {
+    "file": "upside-down-sicilian-pizza.jpg",
+    "alt": "Upside Down Sicilian Pizza",
+    "subject": "dish",
+    "dish": "Upside Down Sicilian Pizza",
+    "use": [
+      "home-hero"
+    ]
+  },
+  {
+    "file": "cauliflower-gluten-free-pizza.jpg",
+    "alt": "Cauliflower Gluten Free Pizza",
+    "subject": "dish",
+    "dish": "Cauliflower Gluten Free Pizza"
+  },
+  {
+    "file": "sicilian-cheese-pizza.jpg",
+    "alt": "Sicilian Cheese Pizza",
+    "subject": "dish",
+    "dish": "Sicilian Cheese Pizza"
+  },
+  {
+    "file": "mini-gluten-free-pizza.jpg",
+    "alt": "Mini Gluten Free Pizza",
+    "subject": "dish",
+    "dish": "Mini Gluten Free Pizza"
+  },
+  {
+    "file": "hawaiian-pizza.jpg",
+    "alt": "Large Hawaiian Pizza",
+    "subject": "dish",
+    "dish": "Large Hawaiian Pizza"
+  },
+  {
+    "file": "buffalo-chicken-pizza.jpg",
+    "alt": "Large Buffalo Chicken Pizza",
+    "subject": "dish",
+    "dish": "Large Buffalo Chicken Pizza"
+  }
+]
